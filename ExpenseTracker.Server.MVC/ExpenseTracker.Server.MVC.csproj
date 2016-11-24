@@ -292,10 +292,6 @@
       <Project>{8b47a618-d905-4a3b-8ca9-c1d7dc47cdc4}</Project>
       <Name>ExpenseTracker.BusinessLogic</Name>
     </ProjectReference>
-    <ProjectReference Include="..\ExpenseTracker.DataLayer\ExpenseTracker.DataLayer.csproj">
-      <Project>{a6a86a0f-2794-44c9-b43b-0277d39428db}</Project>
-      <Name>ExpenseTracker.DataLayer</Name>
-    </ProjectReference>
     <ProjectReference Include="..\ExpenseTracker.Model\ExpenseTracker.Model.csproj">
       <Project>{9ce11d4a-ca6d-4a75-b674-fca2a5fc828b}</Project>
       <Name>ExpenseTracker.Model</Name>
