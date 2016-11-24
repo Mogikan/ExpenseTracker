@@ -12,10 +12,11 @@ namespace ExpenseTracker.DataLayer
 
         public ExpenseTrackerContext() : base("name=ExpenseTracker")
         {
-        }
+        }        
+        public virtual DbSet<Account> Accounts { get; set; }
+        public virtual DbSet<Category> Categories { get; set; }
+        public virtual DbSet<Transaction> Transactions { get; set; }
+        public virtual DbSet<CategoryType> Types { get; set; }
 
-        public DbSet<Account> Accounts { get; set; }
-
-    
     }
 }
